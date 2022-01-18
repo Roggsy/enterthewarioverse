@@ -1,0 +1,22 @@
+{
+	"name" : "deepfocus",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 200,
+		"surfaceSize" : 10,
+		"hasMapMarker" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 21000,
+		"inclination" : 110,
+		"primaryBody" : "Wol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 131,
+		"axialTilt" : 28,
+		"trueAnomaly" : 256,
+		"siderealPeriod" : 30,
+		"eccentricity" : 0
+	}
+}

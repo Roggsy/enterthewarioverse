@@ -1,0 +1,24 @@
+{
+	"name" : "Garlic-Onion",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"hasMapMarker" : false
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1250,
+		"inclination" : 21,
+		"primaryBody" : "Planet Wario",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 122
+	},
+	"FocalPoint" :
+	{
+		"Primary" : "Onion",
+		"Secondary" : "Garlic"
+	}
+}

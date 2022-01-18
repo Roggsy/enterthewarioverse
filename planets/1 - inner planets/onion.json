@@ -1,0 +1,41 @@
+{
+	"name" : "Onion",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 71,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 0,
+		"inclination" : 21,
+		"primaryBody" : "Garlic-Onion",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/moon_heightmap.png",	
+		"textureMap" : "planets/assets/onion_texturemap.png",	
+		"minHeight" : 70,
+		"maxHeight" : 72
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/wss", "path" : "Assets/source 1/onion_II/onion_II.prefab", "alignToNormal" : false, "scale": 165 , "rotation": {"x": 90, "y": 0, "z": 0}, "Position" : {"x": -20, "y": 850, "z": 25} }
+		],
+		"scatter" : 
+		[
+    			{"assetBundle" : "planets/assetbundle/wss", "scale" : 1.5, "path" : "Assets/source 1/onion_II/onion_II.prefab", "count" : 32}
+]
+	}
+}

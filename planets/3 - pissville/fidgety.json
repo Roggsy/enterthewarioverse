@@ -1,0 +1,30 @@
+{
+	"name" : "Fidgety",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 8,
+		"surfaceSize" : 20,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 900,
+		"primaryBody" : "Pissville",
+		"isMoon" : true,
+		"inclination" : 117,
+		"isTidallyLocked" : true
+	},
+	"ProcGen" :
+	{
+		"scale" : 20,
+		"color" : 
+		{
+			"r" : 177,
+			"g" : 177,
+			"b" : 177,
+			"a" : 255
+		}
+	}
+}

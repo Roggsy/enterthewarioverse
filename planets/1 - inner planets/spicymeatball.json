@@ -1,0 +1,56 @@
+{
+	"name" : "Spicy Meatball",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 101,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+	},
+	"Water" :
+	{
+		"size" : 101,
+		"tint" :
+		{
+			"r" : 255,
+			"g" : 80,
+			"b" : 80,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 3000,
+		"inclination" : 3,
+		"primaryBody" : "Wol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 2,
+		"trueAnomaly" : 0,
+		"isTidallyLocked" : true,
+		"tint" : 
+		{
+			"r" : 160,
+			"g" : 135,
+			"b" : 82,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/mercury_heightmap.png",	
+		"textureMap" : "planets/assets/mercury_texturemap.png",	
+		"minHeight" : 99,
+		"maxHeight" : 102
+	},
+	"Props" :
+	{
+		"scatter" : 
+		[
+    			{"assetBundle" : "planets/assetbundle/wss", "scale" : 4, "path" : "Assets/spaghetti/Spaguetti.prefab", "count" : 512}
+]
+	}
+}

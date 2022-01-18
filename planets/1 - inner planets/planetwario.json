@@ -1,0 +1,66 @@
+{
+	"name" : "Planet Wario",
+	"starSystem" : "rose.WarioSpace",
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{"x": -55.65454, "y": 102.4736, "z": 0},
+		"shipSpawnPoint" :
+		{"x": -60.18244, "y": 105.5915, "z": 0},
+		"startwithSuit" : true
+	},
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"waterSize" : 100
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 6000,
+		"inclination" : 2,
+		"primaryBody" : "Wol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 102,
+		"trueAnomaly" : 180,
+		"axialTilt" : 0,
+		"siderealPeriod" : 50
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : false,
+		"size" : 275,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 95
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/earth_heightmap.png",	
+		"textureMap" : "planets/assets/earth_texturemap.png",	
+		"minHeight" : 100,
+		"maxHeight" : 102
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/wss", "path" : "Assets/wario.prefab", "alignToNormal" : false, "scale": 22, "rotation": {"x": -35, "y": 0, "z": 0}, "Position" : {"x": -0, "y": -310, "z": 0} }
+		],
+		"scatter" : 
+		[
+    			{"assetBundle" : "planets/assetbundle/wss", "scale" : 2.5, "path" : "Assets/wariostatue.prefab", "count" : 128}
+]
+	}
+}

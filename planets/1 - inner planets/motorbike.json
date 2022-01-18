@@ -1,0 +1,37 @@
+{
+	"name" : "Motorbike",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 1,
+		"surfaceSize" : 21,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 450,
+		"inclination" : 0,
+		"primaryBody" : "Wario Stadium",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/moon_heightmap.png",	
+		"textureMap" : "planets/assets/garlic_texturemap.png",	
+		"minHeight" : 0,
+		"maxHeight" : 0
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/wss", "path" : "Assets/Wario Bike.prefab", "alignToNormal" : false, "scale": 3 , "rotation": {"x": 35, "y": 120, "z": 80} }
+		]
+	}
+}

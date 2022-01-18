@@ -1,0 +1,53 @@
+{
+	"name" : "Wol",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 1000,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem" : true
+	},
+	"Orbit" :
+	{
+		"isStatic" : true
+	},
+	"Atmosphere" :
+	{
+		"size" : 2000,
+		"fogTint" : 
+		{
+			"r" : 245,
+			"g" : 167,
+			"b" : 146,
+			"a" : 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 2200
+	},
+	"Star" :
+	{
+		"size" : 1850,
+		"tint" : 
+		{
+			"r" : 245,
+			"g" : 177,
+			"b" : 120,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 255,
+			"g" : 102,
+			"b" : 95,
+			"a" : 255
+		},
+		"solarLuminosity" : 0.8
+	},
+	"AsteroidBelt" : 
+	{
+		"innerRadius" : 2300,
+		"outerRadius" : 2850
+	}
+}

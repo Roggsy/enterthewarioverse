@@ -1,0 +1,25 @@
+{
+	"name" : "Timber Hearth",
+	"Singularity" :
+	{
+		"Type" : "BlackHole",
+		"TargetStarSystem" : "rose.WarioSpace",
+		"Size" : 4,
+		"Position" : {"x": 13.24786, "y": -49.27348, "z": 183.9234} 
+	},
+	"Signal" :
+	{
+		"Signals" :
+		[
+			{ 
+				"Frequency" : "Default",
+				"Name" : "Rift to Wario-space",
+				"AudioClip" : "OW_NM_WhiteHoleAmbienceL", 
+				"SourceRadius" : 3, 
+				"Position" : {"x": 13.24786, "y": -49.27348, "z": 183.9234},
+				"IdentificationRadius" : 6,
+				"DetectionRadius" : 10
+			}
+		]
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"name" : "deep",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 40,
+		"surfaceSize" : 180,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1500,
+		"inclination" : 156,
+		"primaryBody" : "deepfocus",
+		"isMoon" : true,
+		"siderealPeriod" : 2,
+		"eccentricity" : 0.5
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/titan_heightmap.png",	
+		"textureMap" : "planets/assets/triton_texturemap.png",	
+		"minHeight" : 172,
+		"maxHeight" : 180
+	},
+	"Atmosphere" :
+	{
+		"size" : 185,
+		"cloudTint" : 
+		{
+			"r" : 8,
+			"g" : 15,
+			"b" : 66,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/deep_clouds.png",
+		"fogTint" : 
+		{
+			"r" : 17,
+			"g" : 31,
+			"b" : 133,
+			"a" : 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 185,
+		"hasAtmosphere" : true,
+		"hasSnow" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 22,
+			"g" : 32,
+			"b" : 105,
+			"a" : 255
+		}
+	},
+	"AsteroidBelt" :
+	{
+		"innerRadius" : 1000,
+		"outerRadius" : 1050
+	}
+}

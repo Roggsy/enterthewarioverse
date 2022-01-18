@@ -1,0 +1,41 @@
+{
+	"name" : "Garlic",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 3,
+		"surfaceSize" : 21,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 400,
+		"inclination" : 21,
+		"primaryBody" : "Garlic-Onion",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"isTidallyLocked" : true
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/moon_heightmap.png",	
+		"textureMap" : "planets/assets/garlic_texturemap.png",	
+		"minHeight" : 20,
+		"maxHeight" : 21
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/wss", "path" : "Assets/source/garlic/garlic 2.prefab", "alignToNormal" : false, "scale": 60 , "rotation": {"x": -90, "y": 0, "z": 0} }
+		],
+		"scatter" : 
+		[
+    			{"assetBundle" : "planets/assetbundle/wss", "scale" : 1, "path" : "Assets/source/garlic/garlic 2.prefab", "count" : 24}
+]
+	}
+}

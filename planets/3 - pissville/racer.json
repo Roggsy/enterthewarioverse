@@ -1,0 +1,30 @@
+{
+	"name" : "Vroom skrrt",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 1,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 83,
+		"inclination" : 0,
+		"primaryBody" : "Mop",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 0,
+		"isTidallyLocked" : true
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assetbundle/wss", "path" : "Assets/Wario Bike.prefab", "alignToNormal" : false, "scale": 0.5 , "rotation": {"x": 0, "y": -120, "z": 0} }
+		]
+	}
+}

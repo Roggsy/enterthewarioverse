@@ -1,0 +1,75 @@
+{
+	"name" : "Pissville",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 20,
+		"surfaceSize" : 300,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 13500,
+		"inclination" : 0,
+		"primaryBody" : "Wol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 74,
+		"axialTilt" : 107,
+		"trueAnomaly" : 142,
+		"siderealPeriod" : 30
+	},
+	"Atmosphere" :
+	{
+		"size" : 300,
+		"cloudTint" : 
+		{
+			"r" : 181,
+			"g" : 181,
+			"b" : 230,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/uranus.png",
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 300,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 90,
+			"a" : 255
+		}
+	},
+	"AsteroidBelt" : 
+	{
+		"innerRadius" : 550,
+		"outerRadius" : 800,
+		"inclination" : 110
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/pissville_heightmap.png",	
+		"textureMap" : "planets/assets/pissville_texturemap.png",	
+		"minHeight" : 180,
+		"maxHeight" : 195
+	},
+	"Water" :
+	{
+		"size" : 185,
+		"tint" :
+		{
+			"r" : 225,
+			"g" : 200,
+			"b" : 30,
+			"a" : 255
+		}
+	}
+}

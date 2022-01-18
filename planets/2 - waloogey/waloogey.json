@@ -1,0 +1,74 @@
+{
+	"name" : "Waloogey",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 20,
+		"surfaceSize" : 300,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 11000,
+		"inclination" : 3,
+		"primaryBody" : "Wol",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 113,
+		"axialTilt" : 90,
+		"trueAnomaly" : 30,
+		"siderealPeriod" : 30,
+		"isTidallyLocked" : false
+	},
+	"Atmosphere" :
+	{
+		"size" : 400,
+		"cloudTint" : 
+		{
+			"r" : 181,
+			"g" : 181,
+			"b" : 230,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/saturn.png",
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 1.2,
+		"fogSize": 400,
+		"hasAtmosphere" : true,
+		"hasRain" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 255,
+			"g" : 230,
+			"b" : 128,
+			"a" : 255
+		}
+	},
+	"Ring" : 
+	{
+		"innerRadius" : 500,
+		"outerRadius" : 1050,
+		"texture" : "planets/assets/saturn_rings.png",
+		"inclination" : 90
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/titan_heightmap.png",	
+		"textureMap" : "planets/assets/titan_texturemap.png",	
+		"minHeight" : 300,
+		"maxHeight" : 309
+	},
+	"Props" :
+	{
+		"scatter" : 
+		[
+    			{"assetBundle" : "planets/assetbundle/wss", "scale" : 1, "path" : "Assets/Waluigi.prefab", "count" : 128}
+]
+	}
+}

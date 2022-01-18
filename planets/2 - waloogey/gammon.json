@@ -1,0 +1,60 @@
+{
+	"name" : "Gammon",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 140,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"waterSize" : 102
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1200,
+		"inclination" : 90,
+		"primaryBody" : "Waloogey",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 90,
+		"isTidallyLocked" : false
+	},
+	"Atmosphere" :
+	{
+		"size" : 126,
+		"cloudTint" : 
+		{
+			"r" : 230,
+			"g" : 80,
+			"b" : 217,
+			"a" : 255
+		},
+		"cloud" : "planets/assets/titan_clouds.png",
+		"fogTint" : 
+		{
+			"r" : 240,
+			"g" : 80,
+			"b" : 217,
+			"a" : 255
+		},
+		"fogDensity": 5,
+		"fogSize": 125,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 230,
+			"g" : 80,
+			"b" : 230,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/titan_heightmap.png",	
+		"textureMap" : "planets/assets/titan_texturemap.png",	
+		"minHeight" : 100,
+		"maxHeight" : 106
+	}
+}

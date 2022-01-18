@@ -1,0 +1,31 @@
+{
+	"name" : "Woaoaaa",
+	"starSystem" : "rose.WarioSpace",
+	"Base" :
+	{
+		"surfaceGravity" : 3,
+		"surfaceSize" : 1,
+		"hasMapMarker" : false,
+		"hasAmbientLight" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 94,
+		"inclination" : 240,
+		"primaryBody" : "Gammon",
+		"isMoon" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 90,
+		"isTidallyLocked" : false,
+		"siderealPeriod" : 1
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/titan_heightmap.png",	
+		"textureMap" : "planets/assets/titan_texturemap.png",	
+		"minHeight" : 1,
+		"maxHeight" : 8
+	}
+}
