@@ -9,20 +9,23 @@
     },
 	"UIDictionary" :
     {
-		"Garlic" : "Чеснок"
-		"Onion" : "Лук"
-		"Motorbike" : "Мотоцикл"
-		"Planet Wario" : "Планета Варио"
-		"Spicy Meatball" : "Острый мясной шарик"
-		"Wario Stadium" : "Стадион Варио"
-	    	"Waloogey" : "Луги Варио"
-	   	"deep" : "глубокий"
+		"Rift to Wario-space" : "Телепорт в космос Варио",
+		"Wol" : "Вариолнце",
+
+		"Garlic" : "Чеснок",
+		"Onion" : "Лук",
+		"Motorbike" : "Мотоцикл",
+		"Planet Wario" : "Планета Варио",
+		"Spicy Meatball" : "Мясной шарик",
+		"Wario Stadium" : "Стадион Варио",
+	    	"Waloogey" : "Луги Варио",
+	   	"deep" : "Глубокая Жеода",
 		
-		"Gammon" : "Окорок"
+		"Gammon" : "Окорок",
 		
-		"Woooaoa" : "Воооаоа"
-		"Waaaoao" : "Ваааоао"
-		"Woaoaaa" : "Воаоааа"
+		"Woooaoa" : "Воооаоа",
+		"Waaaoao" : "Ваааоао",
+		"Woaoaaa" : "Воаоааа",
 		
 		"Garlic-Onion" : "Чеснок-Лук"
 		
